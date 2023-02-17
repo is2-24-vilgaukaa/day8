@@ -1,0 +1,126 @@
+body {
+background: linear-gradient(#4ab1e5ff, rgb(53, 184, 250), rgb(24, 134, 189));  
+font-family: 'Comfortaa', cursive;
+}
+
+.mainmenu {
+text-align: center;
+display: block;
+}
+
+h1, h2, p {
+color: black;
+text-align: center;
+font-family: 'Comfortaa', cursive;
+}
+
+p {
+font-size: 20px;
+}
+
+.mainmenu img 
+{
+width: 200px;
+height: 200px;
+margin-bottom: 10px;
+}
+
+.mainmenu a, a 
+{
+color: #f6f4e6;
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
+text-decoration: none;
+font-size: 20px;
+text-transform: uppercase; 
+padding: 10;
+}
+
+.mainmenu a:hover 
+{
+color: #dbea09;
+}
+
+.about_us {
+text-align: center;
+background: url(../picture/fon.jpg);
+background-size: 100%;
+}
+
+.foto {
+width: 500px;
+height: 350px;
+}
+
+.fotos {
+width: 400px;
+height: 250px;
+padding: 10px;
+}
+
+.fotosmile {
+width: 400px;
+height: 450px; 
+padding: 10px; 
+}
+
+.gif {
+width: 300px;
+height: 350px;  
+padding: 10px;
+}
+
+.fotomafar, .fotoslide {
+width: 400px;
+height: 400px; 
+}
+
+.footer p, .footer b {
+color: white;
+}
+
+marquee {
+font-family: 'Comfortaa', cursive;  
+font-size: 20px;
+}
+
+.end {
+text-align: center; 
+}
+
+.fotoend {
+width: 200px;
+height: 200px;  
+}
+
+table {
+text-align: center;
+}
+
+.td {
+width: 50%; 
+}
+
+.dropdown {
+text-align: center;
+}
+  
+.dropdown-content {
+display: none;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+z-index: 1;
+text-align: center;
+}
+  
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+#avatar {
+width: 50px;
+height: 50px;
+position: relative; 
+transition: left .65s ease-in, top .65s ease-in;
+}
